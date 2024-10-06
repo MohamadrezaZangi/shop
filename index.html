@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="playSetting">
+      <h1>High Score : 0</h1>
+      <h3>Select Difficulty And Play</h3>
+      <input type="radio" id="essy" name="Difficulty" value="essy" checked="checked" />
+      <label for="essy">Essy</label><br />
+      <input type="radio" id="Medium" name="Difficulty" value="Medium" />
+      <label for="Medium">Medium</label><br />
+      <input type="radio" id="Hard" name="Difficulty" value="Hard" />
+      <label for="Hard">Hard</label>
+      <br />
+      <br />
+      <button id="playButton">Play</button>
+    </div>
+
+    <div id="question" style="display: none">
+      <h3 id="questionTitle"></h3>
+      <input type="radio" id="answer1" name="answer" />
+      <label for="answer1" id="answer1Lable"></label><br />
+      <input type="radio" id="answer2" name="answer" />
+      <label for="answer2" id="answer2Lable"></label><br />
+      <input type="radio" id="answer3" name="answer" />
+      <label for="answer3" id="answer3Lable"></label><br />
+      <input type="radio" id="answer4" name="answer" />
+      <label for="answer4" id="answer4Lable"></label><br /><br />
+      <button id="nextButton">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
