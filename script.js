@@ -37,6 +37,8 @@ playButton.addEventListener("click", () => {
     });
 });
 
+console.log("helloe");
+
 nextButton.addEventListener("click", () => {
   if (answer1.checked === true && trueRadio === 0) score += 10;
   if (
